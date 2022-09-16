@@ -79,13 +79,15 @@
                 <div class="underline"></div>
               </div>
 
+              <a href="#">
               <div class="input-box button">
                 <input type="submit" />
               </div>
+            </a>
             </form>
             <a href="#"></a>
             <div class="twitter">
-              <a href="#"><i class="fab fa-twitter"></i>Cancel</a>
+              <a href="#"></i>Cancel</a>
             </div>
           </div>
         </div>
@@ -97,22 +99,59 @@
       <div id="popup2" class="overlay">
         <div class="popup">
           <div class="containerForm">
-            <div class="editt">
-              <button onclick="deleted('num0')">
-              <h1 id="editt">EDIT</h1>
-            </button>
-            </div>
-            <div id="delete" class="delete">
-              <h1>DELETE</h1>
-            </div>
-            <a href="#">
-              <div class="cancel">
-                <h1>CANCEL</h1>
+            <form action="#" id="formEditt" name="formPost">
+              <div class="headerForm">
+                <div class="titleForm">EDIT</div>
+                <img
+                  class="logo"
+                  width="150px"
+                  height="45px"
+                  src="https://media.discordapp.net/attachments/1019891644184678410/1019941832140005427/logo.png"
+                  alt="picture"
+                />
+              </div>
+              <div class="input-box underline">
+                <input type="text" placeholder="nama" id="namaEdit" required />
+                <div class="underline"></div>
+              </div>
+              <div class="input-box underline">
+                <input type="text" placeholder="umur" id="umurEdit" required />
+                <div class="underline"></div>
+              </div>
+              <div class="input-box underline">
+                <input
+                  type="text"
+                  placeholder="alamat foto"
+                  id="alamatEdit"
+                  required
+                />
+                <div class="underline"></div>
+              </div>
+              <div class="input-box underline">
+                <textarea
+                  name="caption"
+                  placeholder="isi caption"
+                  id="captionEdit"
+                  cols="90"
+                  rows="10"
+                ></textarea>
+                <div class="underline"></div>
+              </div>
+
+              <a href="#">
+              <div class="input-box button">
+                <input onclick="editLoad()" type="submit" />
               </div>
             </a>
+            </form>
+            <a href="#"></a>
+            <div class="twitter">
+              <a href="#"></i>Cancel</a>
+            </div>
           </div>
         </div>
       </div>
+
 
       <!-- ========== END POPUP EDIT DELETE ============== -->
     </div>

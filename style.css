@@ -224,4 +224,13 @@
   .cancel{
     background-color: blue;
   }
+
+  .caption{
+    padding-top: 15px;
+    font-size: 24px;
+  }
+
+  .trash{
+    margin-right: 20px;
+  }
   
