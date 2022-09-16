@@ -6,110 +6,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/lol/style.css" />
   </head>
   <body>
     <div class="main">
-        <!-- ======== -->
-        <div class="header">
-            <img
-              class="logo"
-              width="250px"
-              src="/assets/logo.png"
-              alt="tambah"
-            />
-          </div>
-          <!-- ============ -->
-      <div class="container">
-        <!-- ============ -->
-        <div class="card">
-          <div class="headerCard">
-              <div class="profilCard">
-                <img width="70px" src="https://cdn.discordapp.com/attachments/1019891644184678410/1019929333843886180/unknown.png" alt="">
-              </div>
-              <div class="containerCard">
-
-              <div class="nama">
-                <!-- Nama dan UMUR atas -->
-                <h3 class="namaOrang">KAYESS</h3>
-                <h3 class="namaOrang">23 tahun</h3>
-                <!-- =================== -->
-
-              </div>
-              <div class="edit">
-                <!-- === TITIK TIGA EDITT=== -->
-                <img
-                  width="40px" class="titik3"
-                  src="https://cdn.icon-icons.com/icons2/2954/PNG/512/three_dots_vertical_menu_icon_184615.png"
-                  alt="titk tiga"
-                />
-                <!-- ====================== -->
-              </div>
-            </div>
-          </div>
-          <div class="imageCard">
-                <!-- GAMBAR  -->
-            <img
-              class="imageCard"
-              src="https://memora.id/wp-content/uploads/2021/05/Biodata-Kayess-Ewkharis-4.jpg"
-              alt="kayes"
-            />
-            <!-- ============ -->
-          </div>
-          <!-- LOVE LOVE -->
-          <div class="love">
-            <img width="50px" src="/assets/love.svg" alt="love">
-            <img width="50px" src="https://cdn-icons-png.flaticon.com/128/5338/5338282.png" alt="love">
-            <br> <label for="" style="font-weight: bold;">900 likes</label>
-        </div>
-        <!-- ============== -->
-          <!-- === CAPTION ===== -->
-          <div class="caption">ini komendsandjknsajdnsal .....<br> dsadsadsa</div>
-          <!-- ================ -->
-        </div>
-        <!-- ====== -->
-        <div class="card">
-            <div class="headerCard">
-                <div class="profilCard"></div>
-                <div class="containerCard">
-  
-                <div class="nama">
-                  <h3 class="namaOrang">KAYESS</h3>
-                  <h3 class="namaOrang">23 tahun</h3>
-  
-                </div>
-                <div class="edit">
-                  <img
-                    width="40px" class="titik3"
-                    src="https://cdn.icon-icons.com/icons2/2954/PNG/512/three_dots_vertical_menu_icon_184615.png"
-                    alt="titk tiga"
-                  />
-                </div>
-              </div>
-            </div>
-            <div class="imageCard">
-              <img
-                class="imageCard"
-                src="https://memora.id/wp-content/uploads/2021/05/Biodata-Kayess-Ewkharis-4.jpg"
-                alt="kayes"
-              />
-            </div>
-            <div class="love">
-              <img width="50px" src="https://e7.pngegg.com/pngimages/507/757/png-clipart-computer-icons-heart-like-button-like-share-comment-love-logo.png" alt="love">
-              <br> <label for="" style="font-weight: bold;">900 likes</label>
-            </div>
-            <div class="komentar">ini komendsandjknsajdnsal .....<br> dsadsadsa</div>
-          </div>
-          <!-- ========== -->
+      <!-- ======== -->
+      <div class="header">
+        <img class="logo" width="250px" src="/assets/logo.png" alt="tambah" />
       </div>
-      <div class="menu">
-        <img
-          class="tambah"
-          src="https://cdn.discordapp.com/attachments/1019891644184678410/1019891729404534804/Pngtreeyellow_plus_button_illustration_5454398.png"
-          alt="tambah"
-        />
-        <img class="icon1" width="70px" src="/assets/home.jpg" alt="">
-        <img class="icon3" width="80px" src="/assets/acak.png" alt="">
+      <div id="kontenerdelete">
+      <!-- ===== CONTAINER ======= -->
+      <div id="kontener" class="container">
+        <!-- ============ -->
+        <!-- INI CARD -->
+
+        <!-- ====== -->
+
+        <!-- ========== -->
       </div>
     </div>
+      <div class="menu" href="#popup1">
+        <a href="#popup1">
+          <img
+            class="tambah"
+            src="https://cdn.discordapp.com/attachments/1019891644184678410/1019891729404534804/Pngtreeyellow_plus_button_illustration_5454398.png"
+            alt="tambah"
+          />
+        </a>
+        <img class="icon1" onclick="card(database)" width="70px" src="/assets/home.jpg" alt="" />
+        <img id="shuffle" onclick="filter()" class="icon3" width="80px" src="/assets/acak.png" alt="" />
+      </div>
+      <!-- ========== POP UP ================ -->
+      <div id="popup1" class="overlay">
+        <div class="popup">
+          <div class="containerForm">
+            <form action="#" id="formPost" name="formPost">
+              <div class="headerForm">
+                <div class="titleForm">UPLOAD</div>
+                <img
+                  class="logo"
+                  width="150px"
+                  height="45px"
+                  src="https://media.discordapp.net/attachments/1019891644184678410/1019941832140005427/logo.png"
+                  alt="picture"
+                />
+              </div>
+              <div class="input-box underline">
+                <input type="text" placeholder="nama" id="namaPost" required />
+                <div class="underline"></div>
+              </div>
+              <div class="input-box underline">
+                <input type="text" placeholder="umur" id="umurPost" required />
+                <div class="underline"></div>
+              </div>
+              <div class="input-box underline">
+                <input
+                  type="text"
+                  placeholder="alamat foto"
+                  id="alamatPost"
+                  required
+                />
+                <div class="underline"></div>
+              </div>
+              <div class="input-box underline">
+                <textarea
+                  name="caption"
+                  placeholder="isi caption"
+                  id="captionPost"
+                  cols="90"
+                  rows="10"
+                ></textarea>
+                <div class="underline"></div>
+              </div>
+
+              <div class="input-box button">
+                <input type="submit" />
+              </div>
+            </form>
+            <a href="#"></a>
+            <div class="twitter">
+              <a href="#"><i class="fab fa-twitter"></i>Cancel</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ======== END POP UP ================== -->
+
+      <!-- === POP UP EDIT DELETE ====-->
+      <div id="popup2" class="overlay">
+        <div class="popup">
+          <div class="containerForm">
+            <div class="editt">
+              <button onclick="deleted('num0')">
+              <h1 id="editt">EDIT</h1>
+            </button>
+            </div>
+            <div id="delete" class="delete">
+              <h1>DELETE</h1>
+            </div>
+            <a href="#">
+              <div class="cancel">
+                <h1>CANCEL</h1>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ========== END POPUP EDIT DELETE ============== -->
+    </div>
+
+    <script src="index.js"></script>
+    <script src="form.js"></script>
   </body>
 </html>
