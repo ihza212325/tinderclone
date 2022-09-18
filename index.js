@@ -133,12 +133,12 @@ function create() {
     <div class="edit">
       <!-- === TITIK TIGA EDITT=== -->
       <img 
-        width="50px" class="trash"
+         class="trash"
         src="https://icon2.cleanpng.com/20180401/ztw/kisspng-renca-computer-icons-trash-recycle-bin-5ac1163329e985.7681847815226035711717.jpg"
         alt="titk tiga"
       />
       <img 
-        width="40px" class="titik3"
+         class="titik3"
         src="https://cdn.icon-icons.com/icons2/2954/PNG/512/three_dots_vertical_menu_icon_184615.png"
         alt="titk tiga"
       />
@@ -148,7 +148,7 @@ function create() {
 </div>
 <div class="imageCard">
       <!-- GAMBAR  -->
-  <img
+  <img 
     class="imageCard"
     src=${linkfoto}
     alt="kayes"
@@ -157,11 +157,11 @@ function create() {
 </div>
 <!-- LOVE LOVE -->
 <div class="love">
-  <img width="50px" src="/assets/love.svg" alt="love">
+  <img  src="/assets/love.svg" alt="love">
   <div class='fullLove'>
-  <img width="50px" src="/assets/lovefull.png" alt="love">
+  <img src="/assets/lovefull.png" alt="love">
   </div>
-  <img width="50px" src="https://cdn-icons-png.flaticon.com/128/5338/5338282.png" alt="love">
+  <img src="https://cdn-icons-png.flaticon.com/128/5338/5338282.png" alt="love">
   <br> <label for="" style="font-weight: bold;">900 likes</label>
 </div>
 <!-- ============== -->
@@ -191,7 +191,7 @@ function card(data) {
     document.getElementById("kontener").innerHTML += `<div class="card">
 <div class="headerCard">
     <div class="profilCard">
-      <img width="70px" src="https://cdn.discordapp.com/attachments/1019891644184678410/1019929333843886180/unknown.png" alt="">
+      <img  src="https://media.discordapp.net/attachments/1019891644184678410/1020192577548464178/nezuko.jpg" alt="">
     </div>
     <div class="containerCard">
 
@@ -206,13 +206,13 @@ function card(data) {
       <!-- === TITIK TIGA EDITT=== -->
       
       <img onclick='hapus(${i})'
-        width="50px" class="trash"
+         class="trash"
         src="https://icon2.cleanpng.com/20180401/ztw/kisspng-renca-computer-icons-trash-recycle-bin-5ac1163329e985.7681847815226035711717.jpg"
         alt="titk tiga"
       />
       <a href='#popup2' name='${i}'}>
       <img onclick='edit(${i})'
-        width="40px" class="titik3"
+         class="titik3"
         src="https://cdn.icon-icons.com/icons2/2954/PNG/512/three_dots_vertical_menu_icon_184615.png"
         alt="titk tiga"
       />
@@ -233,11 +233,11 @@ function card(data) {
 <!-- LOVE LOVE -->
 <div class="love">
 
-  <img width="50px" src="/assets/love.svg" alt="love">
+  <img src="/assets/love.svg" alt="love">
   <div class='fullLove'>
-  <img width="50px" src="/assets/lovefull.png" alt="love">
+  <img src="/assets/lovefull.png" alt="love">
   </div>
-  <img width="50px" src="https://cdn-icons-png.flaticon.com/128/5338/5338282.png" alt="love">
+  <img src="https://cdn-icons-png.flaticon.com/128/5338/5338282.png" alt="love">
   <br> <label for="" style="font-weight: bold;">${like} likes</label>
 </div>
 <!-- ============== -->
@@ -281,12 +281,12 @@ function createSatu(data) {
   <!-- === TITIK TIGA EDITT=== -->
   <a href='#popup2' name='${i}'}>
   <img onclick='hapus(${i})'
-        width="50px" class="trash"
+         class="trash"
         src="https://icon2.cleanpng.com/20180401/ztw/kisspng-renca-computer-icons-trash-recycle-bin-5ac1163329e985.7681847815226035711717.jpg"
         alt="titk tiga"
       />
   <img onclick='edit(${i})'
-    width="40px" class="titik3"
+     class="titik3"
     src="https://cdn.icon-icons.com/icons2/2954/PNG/512/three_dots_vertical_menu_icon_184615.png"
     alt="titk tiga"
   />
@@ -306,11 +306,11 @@ alt="kayes"
 </div>
 <!-- LOVE LOVE -->
 <div class="love">
-<img width="50px" src="/assets/love.svg" alt="love">
+<img  src="/assets/love.svg" alt="love">
 <div class='fullLove'>
-  <img width="50px" src="/assets/lovefull.png" alt="love">
+  <img  src="/assets/lovefull.png" alt="love">
   </div>
-<img width="50px" src="https://cdn-icons-png.flaticon.com/128/5338/5338282.png" alt="love">
+<img  src="https://cdn-icons-png.flaticon.com/128/5338/5338282.png" alt="love">
 <br> <label for="" style="font-weight: bold;">900 likes</label>
 </div>
 <!-- ============== -->
@@ -363,12 +363,12 @@ function hapus(dapatIndex) {
   <!-- === TITIK TIGA EDITT=== -->
   <a href='#popup2' name='${i}'}>
   <img onclick='hapus(${i})'
-        width="50px" class="trash"
+         class="trash"
         src="https://icon2.cleanpng.com/20180401/ztw/kisspng-renca-computer-icons-trash-recycle-bin-5ac1163329e985.7681847815226035711717.jpg"
         alt="titk tiga"
       />
   <img onclick='edit(${i})'
-    width="40px" class="titik3"
+     class="titik3"
     src="https://cdn.icon-icons.com/icons2/2954/PNG/512/three_dots_vertical_menu_icon_184615.png"
     alt="titk tiga"
   />
@@ -388,11 +388,11 @@ alt="kayes"
 </div>
 <!-- LOVE LOVE -->
 <div class="love">
-<img width="50px" src="/assets/love.svg" alt="love">
+<img src="/assets/love.svg" alt="love">
 <div class='fullLove'>
-  <img width="50px" src="/assets/lovefull.png" alt="love">
+  <img  src="/assets/lovefull.png" alt="love">
   </div>
-<img width="50px" src="https://cdn-icons-png.flaticon.com/128/5338/5338282.png" alt="love">
+<img  src="https://cdn-icons-png.flaticon.com/128/5338/5338282.png" alt="love">
 <br> <label for="" style="font-weight: bold;">900 likes</label>
 </div>
 <!-- ============== -->
@@ -448,13 +448,13 @@ for (let i = 0; i < database.length; i++) {
 <div class="edit">
   <!-- === TITIK TIGA EDITT=== -->
   <img onclick='hapus(${i})'
-        width="50px" class="trash"
+         class="trash"
         src="https://icon2.cleanpng.com/20180401/ztw/kisspng-renca-computer-icons-trash-recycle-bin-5ac1163329e985.7681847815226035711717.jpg"
         alt="titk tiga"
       />
   <a href='#popup2' name='${i}'}>
   <img onclick='edit(${i})'
-    width="40px" class="titik3"
+     class="titik3"
     src="https://cdn.icon-icons.com/icons2/2954/PNG/512/three_dots_vertical_menu_icon_184615.png"
     alt="titk tiga"
   />
@@ -474,11 +474,11 @@ alt="kayes"
 </div>
 <!-- LOVE LOVE -->
 <div class="love">
-<img width="50px" src="/assets/love.svg" alt="love">
+<img  src="/assets/love.svg" alt="love">
 <div class='fullLove'>
-  <img width="50px" src="/assets/lovefull.png" alt="love">
+  <img  src="/assets/lovefull.png" alt="love">
   </div>
-<img width="50px" src="https://cdn-icons-png.flaticon.com/128/5338/5338282.png" alt="love">
+<img  src="https://cdn-icons-png.flaticon.com/128/5338/5338282.png" alt="love">
 <br> <label for="" style="font-weight: bold;">900 likes</label>
 </div>
 <!-- ============== -->
@@ -525,13 +525,13 @@ function filter() {
 <div class="edit">
   <!-- === TITIK TIGA EDITT=== -->
   <img onclick='hapus(${i})'
-        width="50px" class="trash"
+         class="trash"
         src="https://icon2.cleanpng.com/20180401/ztw/kisspng-renca-computer-icons-trash-recycle-bin-5ac1163329e985.7681847815226035711717.jpg"
         alt="titk tiga"
       />
   <a href='#popup2' name='${i}'}>
   <img onclick='edit(${i})'
-    width="40px" class="titik3"
+     class="titik3"
     src="https://cdn.icon-icons.com/icons2/2954/PNG/512/three_dots_vertical_menu_icon_184615.png"
     alt="titk tiga"
   />
@@ -551,11 +551,11 @@ alt="kayes"
 </div>
 <!-- LOVE LOVE -->
 <div class="love">
-<img width="50px" src="/assets/love.svg" alt="love">
+<img  src="/assets/love.svg" alt="love">
 <div class='fullLove'>
-  <img width="50px" src="/assets/lovefull.png" alt="love">
+  <img src="/assets/lovefull.png" alt="love">
   </div>
-<img width="50px" src="https://cdn-icons-png.flaticon.com/128/5338/5338282.png" alt="love">
+<img  src="https://cdn-icons-png.flaticon.com/128/5338/5338282.png" alt="love">
 <br> <label for="" style="font-weight: bold;">900 likes</label>
 </div>
 <!-- ============== -->
@@ -640,13 +640,13 @@ function editLoad() {
               <!-- === TITIK TIGA EDITT=== -->
               
               <img onclick='hapus(${i})'
-                width="50px" class="trash"
+                 class="trash"
                 src="https://icon2.cleanpng.com/20180401/ztw/kisspng-renca-computer-icons-trash-recycle-bin-5ac1163329e985.7681847815226035711717.jpg"
                 alt="titk tiga"
               />
               <a href='#popup2' name='${i}'}>
               <img onclick='edit(${i})'
-                width="40px" class="titik3"
+                 class="titik3"
                 src="https://cdn.icon-icons.com/icons2/2954/PNG/512/three_dots_vertical_menu_icon_184615.png"
                 alt="titk tiga"
               />
@@ -667,11 +667,11 @@ function editLoad() {
         <!-- LOVE LOVE -->
         <div class="love">
         
-          <img width="50px" src="/assets/love.svg" alt="love">
+          <img src="/assets/love.svg" alt="love">
           <div class='fullLove'>
-          <img width="50px" src="/assets/lovefull.png" alt="love">
+          <img src="/assets/lovefull.png" alt="love">
           </div>
-          <img width="50px" src="https://cdn-icons-png.flaticon.com/128/5338/5338282.png" alt="love">
+          <img src="https://cdn-icons-png.flaticon.com/128/5338/5338282.png" alt="love">
           <br> <label for="" style="font-weight: bold;">${like} likes</label>
         </div>
         <!-- ============== -->

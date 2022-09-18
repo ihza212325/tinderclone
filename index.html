@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="/lol/style.css" />
@@ -11,10 +13,10 @@
   <body>
     <div class="main">
       <!-- ======== -->
-      <div class="header">
-        <img class="logo" width="250px" src="/assets/logo.png" alt="tambah" />
-      </div>
       <div id="kontenerdelete">
+        <div class="header">
+          <img class="logo" width="100vh" src="/assets/logo.png" alt="tambah" />
+        </div>
       <!-- ===== CONTAINER ======= -->
       <div id="kontener" class="container">
         <!-- ============ -->
@@ -24,8 +26,8 @@
 
         <!-- ========== -->
       </div>
-    </div>
       <div class="menu" href="#popup1">
+        <img class="icon1" onclick="card(database)" width="70px" src="/assets/home.jpg" alt="" />
         <a href="#popup1">
           <img
             class="tambah"
@@ -33,9 +35,9 @@
             alt="tambah"
           />
         </a>
-        <img class="icon1" onclick="card(database)" width="70px" src="/assets/home.jpg" alt="" />
         <img id="shuffle" onclick="filter()" class="icon3" width="80px" src="/assets/acak.png" alt="" />
       </div>
+    </div>
       <!-- ========== POP UP ================ -->
       <div id="popup1" class="overlay">
         <div class="popup">

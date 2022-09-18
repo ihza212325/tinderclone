@@ -20,7 +20,7 @@
 }
 
 .container {
-  width: 828px;
+  width: auto;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -32,14 +32,17 @@
 
 .menu {
   position: sticky;
+  display: flex;
+  justify-content: space-around;
+  /* justify-items: center; */
   background: rgb(2, 0, 36);
   background: linear-gradient(to right, #fd297b 0%, #ff5864 50%, #ff655b 100%);
   bottom: 0;
-  width: 828px;
+  width: 100%;
   color: #fafafa;
-  height: 100px;
-  border-radius: 30px 30px 30px 30px;
-  transform: translateY(-40px);
+  height: 8vh;
+  /* border-radius: 30px 30px 30px 30px; */
+  /* transform: translateY(-40px); */
   padding: 15px;
 }
 
@@ -50,15 +53,15 @@
   background: rgb(2, 0, 36);
   background: linear-gradient(to right, #fd297b 0%, #ff5864 50%, #ff655b 100%);
   top: 0;
-  width: 828px;
+  width: 100%;
   color: #fafafa;
-  height: 100px;
+  height: 10vh;
   padding: 10px;
   z-index: 2;
 }
 
 .tambah {
-  width: 80px;
+  width: 7vh;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -74,6 +77,9 @@
     transform: rotate(180deg);
     scale: 1.5;
     transition: 0.5s ease;
+}
+.nama h3{
+  width: 30vw;
 }
 
 .card {
@@ -94,6 +100,12 @@
   width: 100%;
   border-radius: 10px;
 }
+.imageCard img{
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  border-radius: 10px;
+}
 
 .headerCard {
   display: flex;
@@ -102,8 +114,14 @@
 .profilCard {
   width: 60px;
   height: auto;
-  background-color: red;
-  border-radius: 100px;
+  /* background-color: red; */
+  border-radius: 100%;
+}
+.profilCard img{
+  width: 8vh;
+  height: 8vh;
+  object-fit: cover;
+  border-radius: 100%;
 }
 
 .containerCard {
@@ -120,35 +138,34 @@
 .titik3 {
   transform: rotate(90deg);
   cursor: pointer;
+  width: 8vw;
 }
 
-.icon1 {
-  position: absolute;
-  transform: translateX(120px);
-  margin-top: -60px;
-  cursor: pointer;
-}
 .icon1:hover,
 .icon3:hover {
-  margin-top: -80px;
+  margin-top: -3vh;
   transition: 0.5s ease;
 }
-.icon3 {
-  position: absolute;
-  transform: translateX(550px);
-  margin-top: -65px;
+.icon1, .icon3{
+  width: 7vh;
+  height: 7vh;
+  margin-top: -3vw;
   cursor: pointer;
 }
 
 .fullLove{
   position: absolute;
-  transform: translateY(-53px);
+  transform: translateY(-40px);
   opacity: 0;
 }
 
 .fullLove:active{
   opacity: 100;
   scale: 1.1;
+}
+
+.love img{
+  width: 10vw;
 }
 
 /* ================ POP UP =========== */
@@ -190,7 +207,7 @@
     top: 20px;
     right: 30px;
     transition: all 200ms;
-    font-size: 30px;
+    font-size: 1em;
     font-weight: bold;
     text-decoration: none;
     color: #333;
@@ -227,10 +244,12 @@
 
   .caption{
     padding-top: 15px;
-    font-size: 24px;
+    font-size: 1em;
   }
 
   .trash{
-    margin-right: 20px;
+    margin-right: 3vw;
+    width: 5vh;
   }
+  
   
